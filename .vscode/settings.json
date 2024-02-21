@@ -1,0 +1,6 @@
+{
+  "SupCode.ServerAddress": "http://10.50.60.21:8881",
+  "SupCode.RunEnvForLLMs": "GPU with TGI toolkit",
+  "SupCode.AutoTriggerCompletion": true,
+  "javascript.validate.enable": true,
+}
