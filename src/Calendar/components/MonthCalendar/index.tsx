@@ -45,7 +45,7 @@ const MonthCalendar: React.FC<MonthCalendarProps> = ({ value, curMonth, dateRend
       rows.push(row);
     }
 
-    return rows.map(row => <div className="calendar-month-body-row">{row}</div>)
+    return rows.map((row, index) => <div key={index} className="calendar-month-body-row">{row}</div>)
   }
 
 

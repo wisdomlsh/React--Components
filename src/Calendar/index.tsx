@@ -1,4 +1,4 @@
-import React, { CSSProperties, ReactNode, useEffect, useState } from 'react';
+import React, { CSSProperties, ReactNode, useState } from 'react';
 import MonthCalendar from "./components/MonthCalendar";
 import Header from "./components/Header";
 import type { Dayjs } from 'dayjs';
@@ -24,7 +24,6 @@ export interface CalendarProps {
 
 
 const Calendar: React.FC<CalendarProps> = (props) => {
-
   const { value, className, style, locale, onChange } = props
 
   const classNames = cs('calendar', className)
